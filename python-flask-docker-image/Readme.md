@@ -1,40 +1,6 @@
-## Git clone the application
-
-## Create a virtual environment inside the application 
-
-```python
-
-    virtualenv -p /usr/bin/python3 venv    
-
-    source venv/bin/activate
-
-```
-
-## Install Python modules
-
-```python
-
-   pip3 install -r requirements.txt 
-    
-```
+A simple Web App build using Python, Flask, Angular.
 
 
-## Run the application using
-
-```python
-
-    python app.py
-
-```
-
-
-## You will get below REST API
-
-```python
-
-        http://localhost:5000
-
-```
 
 ## Docker commands
 
@@ -56,8 +22,6 @@
         
         // run a docker container in daemon mode with ports exposed
         docker run -it -d -p <outsidePort>:<dockerInsidePort> <imageName:version>
-
-
 
 
 ```
