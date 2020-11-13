@@ -1,17 +1,9 @@
-FROM node:alpine
+FROM python:3.7.2-stretch
 
 WORKDIR /app
 
-COPY package*.json ./
+ADD . /app
 
-RUN npm install
+RUN pip install -r requirements.txt
 
-COPY . .
-
-ENV PORT=8080
-
-EXPOSE 8808
-
-CMD ["npm", "start"]
-
-
+CMD ["uwsgi", "app.ini"]

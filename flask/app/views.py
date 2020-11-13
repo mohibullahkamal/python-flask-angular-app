@@ -1,5 +1,5 @@
 from app import app
 
-@app.router("/")
+@app.route("/")
 def index():
     return "Hello from Flask...."
