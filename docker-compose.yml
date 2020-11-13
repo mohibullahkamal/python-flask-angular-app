@@ -8,7 +8,6 @@ services:
     restart: always
     environment:
       - APP_NAME=MyFlaskApp
-      - DB_USERNAME=example
     expose:
       - 8080
 
