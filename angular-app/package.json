@@ -1,5 +1,5 @@
 {
-  "name": "angular-app",
+  "name": "ls",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -44,5 +44,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.",
+  "main": "karma.conf.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }
