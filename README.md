@@ -3,7 +3,7 @@ A simple Web App build using Python, Flask, Angular.
 
 Quick Steps for you to run the app in your machine(in terminal):
 
-1. ```docker --version``` --> Check if you have docker installed; if NOT, please download and install it
+1. ```docker --version``` --> Check if you have docker installed; if NOT, please download, and install it.
 2. ``` git clone https://github.com/mohibullahkamal/python-flask-angular-app.git``` --> Clone the app
 3. ```cd <Enter your path here>``` --> cd into the cloned folder
 4. ```docker-compose build``` --> use docker-compose to build container of our whole App
