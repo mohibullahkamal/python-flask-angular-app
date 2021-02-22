@@ -11,4 +11,5 @@ Quick Steps for you to run the app in your machine(in terminal):
 6. AWESOME!!! Go to your browser and type "localhost" to see the running app --> ```localhost```
 7. ```docker-compose down``` --> Finally; to remove all the containers from your system.
 
+
 ---------------------------   END :)  --------------------------
