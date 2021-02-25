@@ -12,4 +12,5 @@ Quick Steps for you to run the app in your machine(in terminal):
 7. ```docker-compose down``` --> Finally; to remove all the containers from your system.
 
 
+
 ---------------------------   END :)  --------------------------
